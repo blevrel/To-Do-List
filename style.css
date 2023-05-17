@@ -1,0 +1,47 @@
+h1
+{
+    position: relative;
+    top: 50px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: bolder;
+    color: #cb9875;
+    font-size: 80px;
+}
+
+label[for="task"]
+{
+    position: relative;
+    color: #cb9875;
+    font-family: "Varela Round", sans-serif;
+    font-size: 30px;
+}
+body
+{
+    background-color: blueviolet;
+    text-align: center;
+}
+
+ul
+{
+    list-style-type: none;
+}
+li
+{
+    font-family: "Varela Round", sans-serif;
+    color: #cb9875;
+    font-size: 30px;
+
+}
+li:hover
+{
+    font-size: 80px;
+    border: 2px solid whitesmoke;
+}
+
+input[type="text"]
+{
+    border: 2px solid #45acff;
+    border-radius: 4px;
+    display: block;
+    margin: auto;
+}

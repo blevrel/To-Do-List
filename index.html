@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+        <title>To-Do List</title>
+    </head>
+    <body>
+        <h1>To-Do List</h1>
+        <label for="task">Insert a task in your list here:</label><br>
+        <input type="text" id="task" name="task" onkeyup="keyHandler(event)">
+        <button onclick="addItem()">Add task</button>
+        <button onclick="removeItem()">Remove task(s)</button>
+        <ul id="list"></ul>
+        <script src="functions.js"></script>
+    </body>
+</html>
